@@ -1,9 +1,9 @@
 // import Link from 'next/link';
 import css from '../pages/_app';
 
-const linkStyle = {
-  marginRight: '1rem',
-};
+// const linkStyle = {
+//   marginRight: '1rem',
+// };
 const Footer = () => {
   return (
     <div>
