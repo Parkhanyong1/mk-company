@@ -3,6 +3,9 @@ header {
   position: relative;
   z-index: 2;
 }
+header a {
+  text-decoration: none;
+}
 header h1 {
   display: inline;
   margin-left: 200px;
@@ -41,7 +44,15 @@ header ol {
   transition: all 0.15s ease-in;
   border: 1px black solid;
 }
-nav {
+.ceonav {
+  width: auto;
+  height: 410px;
+  background-image: url(/ceo.jpg);
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+}
+.indexnav {
   width: auto;
   height: 410px;
   background-image: url(/main.jpg);
@@ -59,7 +70,14 @@ nav span {
   padding-top: 150px;
   height: 400px;
 }
-main {
+.ceomain {
+  height: 480px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.indexmain {
   height: 220px;
   padding-left: 300px;
   padding-top: 10px;

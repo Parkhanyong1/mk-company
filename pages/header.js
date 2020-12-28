@@ -1,20 +1,20 @@
-// import Link from 'next/link';
-import css from '../pages/_app';
-
-// const linkStyle = {
-//     marginRight: '1rem'
-// }
+import Company from '../pages/container/company/company';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <div>
       <header>
-        <h1>(주)엠케이</h1>
+        <Link href="/">
+          <a>
+            <h1>(주)엠케이</h1>
+          </a>
+        </Link>
         <ul>
           <li>
             <h3>COMPANY</h3>
             <ol>
-              <p>
+              {/* <p>
                 <a>대표 인사말</a>
               </p>
               <p>
@@ -31,7 +31,8 @@ const Header = () => {
               </p>
               <p>
                 <a>찾아오는 길</a>
-              </p>
+              </p> */}
+              <Company />
             </ol>
           </li>
           <li>
