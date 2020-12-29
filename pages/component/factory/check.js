@@ -1,16 +1,32 @@
-import '../../styles/check.css'
-import Header from '../../component/header.js'
-import Section from '../../component/check/section.js'
-import Footer from '../../component/footer.js'
+import Layout from '../../container/common/layout';
+import css from '../../../styles/index.css';
 
-function check() {
-    return (
-        <div class="container">
-        <Header/>
-        <Section/>
-        <Footer/>
-        </div>
-    );
+function Check() {
+  return (
+    <div>
+      <Layout>
+        <section>
+          <nav className={css.checknav}>
+            <span>
+              <h1>
+                CHECK
+                <p>FACILITY</p>
+              </h1>
+            </span>
+          </nav>
+          <main className={css.checkmain}>
+            <h2>검사설비</h2>
+            <p>
+              <img src="/checkfacility1.jpg" alt="" title="" />
+            </p>
+            <p>
+              <img src="/checkfacility2.jpg" alt="" title="" />
+            </p>
+          </main>
+        </section>
+      </Layout>
+    </div>
+  );
 }
 
-export default check;
+export default Check;

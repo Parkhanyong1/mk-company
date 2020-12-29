@@ -88,6 +88,42 @@ header ol {
   background-image: url(/way.jpg);
   margin-top: 8px;
 }
+.ringnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/ring.jpg);
+  margin-top: 8px;
+}
+.outinputnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/outinput.jpg);
+  margin-top: 8px;
+}
+.othersnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/others.jpg);
+  margin-top: 8px;
+}
+.productionnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/facilitymain.jpg);
+  margin-top: 8px;
+}
+.checknav {
+  width: auto;
+  height: 410px;
+  background-image: url(/checkfacilitymain.jpg);
+  margin-top: 8px;
+}
+.recruitmentnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/recruitment.jpg);
+  margin-top: 8px;
+}
 nav span {
   mix-blend-mode: normal;
   position: absolute;
@@ -142,6 +178,43 @@ nav span {
   font-size: 1rem;
   padding-left: 200px;
   padding-top: 40px;
+}
+.ringmain {
+  height: 2000px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.outinputmain {
+  height: 1300px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.othersmain {
+  height: 2200px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.productionmain {
+  height: 2000px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.checkmain {
+  height: 1200px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.recruitmentmain {
+  height: 350px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 main p {
   font-size: 1.3rem;

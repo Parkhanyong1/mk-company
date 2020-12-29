@@ -2,11 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/component/company/way": "pages/component/company/way.js",
-  "/component/company/policy": "pages/component/company/policy.js",
+  "/component/factory/check": "pages/component/factory/check.js",
+  "/component/contactus/recruitment": "pages/component/contactus/recruitment.js",
   "/": "pages/index.js",
   "/component/company/ceo": "pages/component/company/ceo.js",
   "/component/company/history": "pages/component/company/history.js",
+  "/component/company/policy": "pages/component/company/policy.js",
   "/component/company/organization": "pages/component/company/organization.js",
-  "/component/company/certification": "pages/component/company/certification.js"
+  "/component/company/certification": "pages/component/company/certification.js",
+  "/component/company/way": "pages/component/company/way.js",
+  "/component/product/ring": "pages/component/product/ring.js",
+  "/component/product/outinput": "pages/component/product/outinput.js",
+  "/component/product/others": "pages/component/product/others.js",
+  "/component/factory/production": "pages/component/factory/production.js"
 }
