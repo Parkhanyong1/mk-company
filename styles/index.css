@@ -44,14 +44,6 @@ header ol {
   transition: all 0.15s ease-in;
   border: 1px black solid;
 }
-.ceonav {
-  width: auto;
-  height: 410px;
-  background-image: url(/ceo.jpg);
-  position: relative;
-  z-index: 1;
-  margin-top: 8px;
-}
 .indexnav {
   width: auto;
   height: 410px;
@@ -60,15 +52,56 @@ header ol {
   z-index: 1;
   margin-top: 8px;
 }
+.ceonav {
+  width: auto;
+  height: 410px;
+  background-image: url(/ceo.jpg);
+  margin-top: 8px;
+}
+.historynav {
+  width: auto;
+  height: 410px;
+  background-image: url(/history.jpg);
+  margin-top: 8px;
+}
+.policynav {
+  width: auto;
+  height: 410px;
+  background-image: url(/policy.jpg);
+  margin-top: 8px;
+}
+.organizationnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/organization.jpg);
+  margin-top: 8px;
+}
+.certificationnav {
+  width: auto;
+  height: 410px;
+  background-image: url(/certification.jpg);
+  margin-top: 8px;
+}
+.waynav {
+  width: auto;
+  height: 410px;
+  background-image: url(/way.jpg);
+  margin-top: 8px;
+}
 nav span {
   mix-blend-mode: normal;
   position: absolute;
   font-size: 3rem;
   font-weight: bold;
   color: ghostwhite;
-  padding-left: 1100px;
-  padding-top: 150px;
+  padding-left: 900px;
+  padding-top: 100px;
   height: 400px;
+}
+.indexmain {
+  height: 220px;
+  padding-left: 300px;
+  padding-top: 10px;
 }
 .ceomain {
   height: 480px;
@@ -77,10 +110,38 @@ nav span {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.indexmain {
-  height: 220px;
-  padding-left: 300px;
-  padding-top: 10px;
+.historymain {
+  height: 200px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.policymain {
+  height: 600px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.organizationmain {
+  height: 900px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.certificationmain {
+  height: 1500px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+.waymain {
+  height: 800px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
 }
 main p {
   font-size: 1.3rem;

@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/component/company/way": "pages/component/company/way.js",
+  "/component/company/policy": "pages/component/company/policy.js",
+  "/": "pages/index.js",
+  "/component/company/ceo": "pages/component/company/ceo.js",
+  "/component/company/history": "pages/component/company/history.js",
+  "/component/company/organization": "pages/component/company/organization.js",
+  "/component/company/certification": "pages/component/company/certification.js"
 }

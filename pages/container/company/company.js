@@ -10,19 +10,29 @@ const Company = () => {
         </Link>
       </p>
       <p>
-        <a>회사연혁</a>
+        <Link href="../../component/company/history">
+          <a>회사연혁</a>
+        </Link>
       </p>
       <p>
-        <a>경영방침</a>
+        <Link href="../../component/company/policy">
+          <a>경영방침</a>
+        </Link>
       </p>
       <p>
-        <a>조직도</a>
+        <Link href="../../component/company/organization">
+          <a>조직도</a>
+        </Link>
       </p>
       <p>
-        <a>인증현황 및 특허</a>
+        <Link href="../../component/company/certification">
+          <a>인증현황 및 특허</a>
+        </Link>
       </p>
       <p>
-        <a>찾아오는 길</a>
+        <Link href="../../component/company/way">
+          <a>찾아오는 길</a>
+        </Link>
       </p>
     </div>
   );
