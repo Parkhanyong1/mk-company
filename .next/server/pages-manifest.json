@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/component/factory/check": "pages/component/factory/check.js",
-  "/component/contactus/recruitment": "pages/component/contactus/recruitment.js",
   "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/component/company/ceo": "pages/component/company/ceo.js",
   "/component/company/history": "pages/component/company/history.js",
   "/component/company/policy": "pages/component/company/policy.js",
@@ -14,5 +13,7 @@
   "/component/product/ring": "pages/component/product/ring.js",
   "/component/product/outinput": "pages/component/product/outinput.js",
   "/component/product/others": "pages/component/product/others.js",
-  "/component/factory/production": "pages/component/factory/production.js"
+  "/component/factory/production": "pages/component/factory/production.js",
+  "/component/factory/check": "pages/component/factory/check.js",
+  "/component/contactus/recruitment": "pages/component/contactus/recruitment.js"
 }

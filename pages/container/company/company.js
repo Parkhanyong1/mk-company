@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import css from '../../../styles/ceo.css';
+import css from '../../../styles/index.css';
 
 const Company = () => {
   return (
