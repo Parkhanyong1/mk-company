@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/component/company/ceo": "pages/component/company/ceo.js",
-  "/component/company/history": "pages/component/company/history.js"
+  "/_document": "pages/_document.js"
 }
