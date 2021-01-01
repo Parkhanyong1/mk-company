@@ -1,0 +1,13 @@
+.recruitmentNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/recruitment.jpg);
+  margin-top: 8px;
+}
+.recruitmentMain {
+  height: 350px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

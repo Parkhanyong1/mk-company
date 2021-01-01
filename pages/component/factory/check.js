@@ -1,12 +1,12 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import checkStyle from '../../../styles/factory/check.module.css';
 
 function Check() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.checknav}>
+          <nav className={checkStyle.checkNav}>
             <span>
               <h1>
                 CHECK
@@ -14,7 +14,7 @@ function Check() {
               </h1>
             </span>
           </nav>
-          <main className={css.checkmain}>
+          <main className={checkStyle.checkMain}>
             <h2>검사설비</h2>
             <p>
               <img src="/checkfacility1.jpg" alt="" title="" />

@@ -1,12 +1,12 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import policyStyle from '../../../styles/company/policy.module.css';
 
 function policy() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.policynav}>
+          <nav className={policyStyle.policyNav}>
             <span>
               <h1>
                 MANAGEMENT
@@ -14,7 +14,7 @@ function policy() {
               </h1>
             </span>
           </nav>
-          <main className={css.policymain}>
+          <main className={policyStyle.policyMain}>
             <h2>경영방침</h2>
             <p>
               엠케이는 안전, 복지, 품질, 성장, 기술의 5개 경영방침을 세우고 이를

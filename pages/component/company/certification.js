@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import certificationStyle from '../../../styles/company/certification.module.css';
 
 function certification() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.certificationnav}>
+          <nav className={certificationStyle.certificationNav}>
             <span>
               <h1>CERTIFICATION</h1>
             </span>
           </nav>
-          <main className={css.certificationmain}>
+          <main className={certificationStyle.certificationMain}>
             <h2>인증현황</h2>
             <img
               src="/certification3.jpg"

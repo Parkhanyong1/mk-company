@@ -1,0 +1,26 @@
+.indexNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/main.jpg);
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+}
+.navSpan {
+  mix-blend-mode: normal;
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  color: ghostwhite;
+  padding-left: 900px;
+  padding-top: 100px;
+  height: 400px;
+}
+.indexMain {
+  height: 220px;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+.mainP {
+  font-size: 1.3rem;
+}

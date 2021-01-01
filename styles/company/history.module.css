@@ -1,0 +1,13 @@
+.historyNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/history.jpg);
+  margin-top: 8px;
+}
+.historyMain {
+  height: 200px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

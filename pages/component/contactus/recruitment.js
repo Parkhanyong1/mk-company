@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import recruitmentStyle from '../../../styles/contact/recruitment.module.css';
 
 function Recruitment() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.recruitmentnav}>
+          <nav className={recruitmentStyle.recruitmentNav}>
             <span>
               <h1>RECRUITMENT</h1>
             </span>
           </nav>
-          <main className={css.recruitmentmain}>
+          <main className={recruitmentStyle.recruitmentMain}>
             <h2>채용정보</h2>
             <p>
               <h3>채용 접수 방법</h3>

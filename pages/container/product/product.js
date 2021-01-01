@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import css from '../../../styles/index.css';
+import css from '../../../styles/index.module.css';
 
 const Product = () => {
   return (

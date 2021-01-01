@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import othersStyle from '../../../styles/product/others.module.css';
 
 function others() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.othersnav}>
+          <nav className={othersStyle.othersNav}>
             <span>
               <h1>OTHER</h1>
             </span>
           </nav>
-          <main className={css.othersmain}>
+          <main className={othersStyle.othersMain}>
             <h2>OTHER</h2>
             <p>
               엠케이는 Ring gear, Output gear, Input gear 외 다수의 기어류를

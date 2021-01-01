@@ -1,12 +1,12 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import organizationStyle from '../../../styles/company/organization.module.css';
 
 function organization() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.organizationnav}>
+          <nav className={organizationStyle.organizationNav}>
             <span>
               <h1>
                 ORGANIZATION
@@ -14,7 +14,7 @@ function organization() {
               </h1>
             </span>
           </nav>
-          <main className={css.organizationmain}>
+          <main className={organizationStyle.organizationMain}>
             <h2>(주)엠케이 조직도</h2>
             <img
               src="/organizationtable.jpg"

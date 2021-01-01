@@ -1,0 +1,13 @@
+.footer {
+  background-color: steelblue;
+  color: white;
+  height: 140px;
+}
+.footerH1 {
+  display: inline;
+  margin-left: 200px;
+  margin-right: 380px;
+}
+.footerP {
+  margin-left: 730px;
+}

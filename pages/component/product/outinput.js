@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import outinputStyle from '../../../styles/product/outinput.module.css';
 
 function outinput() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.outinputnav}>
+          <nav className={outinputStyle.outinputNav}>
             <span>
               <h1>OUTPUT & INPUT GEAR</h1>
             </span>
           </nav>
-          <main className={css.outinputmain}>
+          <main className={outinputStyle.outinputMain}>
             <h2>아웃풋 기어와 인풋 기어</h2>
             <p>
               엠케이는 자동차 트랜스미션에 들어가는 미션용 아웃풋기어,

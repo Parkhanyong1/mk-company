@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import wayStyle from '../../../styles/company/way.module.css';
 
 function way() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.waynav}>
+          <nav className={wayStyle.wayNav}>
             <span>
               <h1>WAY TO FIND</h1>
             </span>
           </nav>
-          <main className={css.waymain}>
+          <main className={wayStyle.wayMain}>
             <h2>찾아오는 길</h2>
             <h3>구글 지도</h3>
             <iframe

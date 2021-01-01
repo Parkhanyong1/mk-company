@@ -1,12 +1,12 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import productionStyle from '../../../styles/factory/production.module.css';
 
 function production() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.productionnav}>
+          <nav className={productionStyle.productionNav}>
             <span>
               <h1>
                 PRODUCTION
@@ -14,7 +14,7 @@ function production() {
               </h1>
             </span>
           </nav>
-          <main className={css.productionmain}>
+          <main className={productionStyle.productionMain}>
             <h2>생산 설비</h2>
             <p>
               <img src="/productionfacility1.jpg" alt="" />

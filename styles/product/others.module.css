@@ -1,0 +1,12 @@
+.othersNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/others.jpg);
+  margin-top: 8px;
+}
+.othersMain {
+  height: 2300px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}

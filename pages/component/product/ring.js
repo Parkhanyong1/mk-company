@@ -1,17 +1,17 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import ringStyle from '../../../styles/product/ring.module.css';
 
 function ring() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.ringnav}>
+          <nav className={ringStyle.ringNav}>
             <span>
               <h1>RING GEAR</h1>
             </span>
           </nav>
-          <main className={css.ringmain}>
+          <main className={ringStyle.ringMain}>
             <h2>링기어</h2>
             <p>
               엠케이는 전기차에 들어가는 변속기용 링기어를 생산하고 있습니다.

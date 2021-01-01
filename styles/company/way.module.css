@@ -1,0 +1,12 @@
+.wayNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/way.jpg);
+  margin-top: 8px;
+}
+.wayMain {
+  height: 800px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}

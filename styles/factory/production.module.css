@@ -1,0 +1,12 @@
+.productionNav {
+  width: auto;
+  height: 410px;
+  background-image: url(/facilitymain.jpg);
+  margin-top: 8px;
+}
+.productionMain {
+  height: 2100px;
+  font-size: 1rem;
+  padding-left: 200px;
+  padding-top: 40px;
+}

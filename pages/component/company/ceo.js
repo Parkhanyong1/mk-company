@@ -1,15 +1,15 @@
 import Layout from '../../container/common/layout';
-import css from '../../../styles/index.css';
+import ceoStyle from '../../../styles/company/ceo.module.css';
 
 function ceo() {
   return (
     <div>
       <Layout>
         <section>
-          <nav className={css.ceonav}>
+          <nav className={ceoStyle.ceoNav}>
             <span>CEO GREETING</span>
           </nav>
-          <main className={css.ceomain}>
+          <main className={ceoStyle.ceoMain}>
             <h2>대표 인사말</h2>
             <p>
               엠케이는 정밀하고 오차 없는 부품을 생산하는 기본에 충실한 기업을

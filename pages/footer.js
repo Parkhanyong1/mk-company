@@ -1,11 +1,14 @@
+import footerStyle from '../styles/footer.module.css';
+// import test from '../styles/test.module.css';
+
 const Footer = () => {
   return (
     <div>
-      <footer>
-        <h1>(주)엠케이</h1>
+      <footer className={footerStyle.footer}>
+        <h1 className={footerStyle.footerH1}>(주)엠케이</h1>
         Address : 454 Chilbaek-ro, Geumho-eup, Yeongcheon-si, Gyeongsangbuk-do
-        <p>Tel : 054-335-1501</p>
-        <p>Fax : 054-338-1501</p>
+        <p className={footerStyle.footerP}>Tel : 054-335-1501</p>
+        <p className={footerStyle.footerP}>Fax : 054-338-1501</p>
       </footer>
     </div>
   );
