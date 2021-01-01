@@ -10,3 +10,13 @@
   padding-left: 200px;
   padding-top: 40px;
 }
+.navSpan {
+  mix-blend-mode: normal;
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  color: ghostwhite;
+  padding-left: 900px;
+  padding-top: 100px;
+  height: 400px;
+}

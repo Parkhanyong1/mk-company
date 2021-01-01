@@ -7,7 +7,7 @@ function history() {
       <Layout>
         <section>
           <nav className={historyStyle.historyNav}>
-            <span>
+            <span className={historyStyle.navSpan}>
               <h1>COMPANY HISTORY</h1>
             </span>
           </nav>

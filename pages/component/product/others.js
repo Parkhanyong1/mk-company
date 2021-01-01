@@ -7,7 +7,7 @@ function others() {
       <Layout>
         <section>
           <nav className={othersStyle.othersNav}>
-            <span>
+            <span className={othersStyle.navSpan}>
               <h1>OTHER</h1>
             </span>
           </nav>

@@ -7,7 +7,7 @@ function way() {
       <Layout>
         <section>
           <nav className={wayStyle.wayNav}>
-            <span>
+            <span className={wayStyle.navSpan}>
               <h1>WAY TO FIND</h1>
             </span>
           </nav>

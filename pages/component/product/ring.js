@@ -7,7 +7,7 @@ function ring() {
       <Layout>
         <section>
           <nav className={ringStyle.ringNav}>
-            <span>
+            <span className={ringStyle.navSpan}>
               <h1>RING GEAR</h1>
             </span>
           </nav>

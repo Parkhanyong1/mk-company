@@ -7,7 +7,7 @@ function production() {
       <Layout>
         <section>
           <nav className={productionStyle.productionNav}>
-            <span>
+            <span className={productionStyle.navSpan}>
               <h1>
                 PRODUCTION
                 <p>FACILITY</p>

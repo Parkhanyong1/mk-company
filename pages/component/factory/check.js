@@ -7,7 +7,7 @@ function Check() {
       <Layout>
         <section>
           <nav className={checkStyle.checkNav}>
-            <span>
+            <span className={checkStyle.navSpan}>
               <h1>
                 CHECK
                 <p>FACILITY</p>

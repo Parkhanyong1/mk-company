@@ -7,7 +7,7 @@ function outinput() {
       <Layout>
         <section>
           <nav className={outinputStyle.outinputNav}>
-            <span>
+            <span className={outinputStyle.navSpan}>
               <h1>OUTPUT & INPUT GEAR</h1>
             </span>
           </nav>

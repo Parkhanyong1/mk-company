@@ -7,7 +7,7 @@ function organization() {
       <Layout>
         <section>
           <nav className={organizationStyle.organizationNav}>
-            <span>
+            <span className={organizationStyle.navSpan}>
               <h1>
                 ORGANIZATION
                 <p>CHART</p>

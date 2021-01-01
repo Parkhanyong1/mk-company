@@ -7,7 +7,7 @@ function ceo() {
       <Layout>
         <section>
           <nav className={ceoStyle.ceoNav}>
-            <span>CEO GREETING</span>
+            <span className={ceoStyle.navSpan}>CEO GREETING</span>
           </nav>
           <main className={ceoStyle.ceoMain}>
             <h2>대표 인사말</h2>

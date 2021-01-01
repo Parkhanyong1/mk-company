@@ -7,7 +7,7 @@ function certification() {
       <Layout>
         <section>
           <nav className={certificationStyle.certificationNav}>
-            <span>
+            <span className={certificationStyle.navSpan}>
               <h1>CERTIFICATION</h1>
             </span>
           </nav>

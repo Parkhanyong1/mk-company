@@ -7,7 +7,7 @@ function policy() {
       <Layout>
         <section>
           <nav className={policyStyle.policyNav}>
-            <span>
+            <span className={policyStyle.navSpan}>
               <h1>
                 MANAGEMENT
                 <p>POLICY</p>

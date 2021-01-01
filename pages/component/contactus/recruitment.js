@@ -7,7 +7,7 @@ function Recruitment() {
       <Layout>
         <section>
           <nav className={recruitmentStyle.recruitmentNav}>
-            <span>
+            <span className={recruitmentStyle.navSpan}>
               <h1>RECRUITMENT</h1>
             </span>
           </nav>
