@@ -10,32 +10,32 @@ const Header = () => {
     <div>
       <header className={headerStyle.header}>
         <Link href="/">
-          <a className={headerStyle.headerA}>
-            <h1 className={headerStyle.headerH1}>(주)엠케이</h1>
+          <a className={headerStyle.headerTitle}>
+            <h1 className={headerStyle.headerTitle}>(주)엠케이</h1>
           </a>
         </Link>
-        <ul className={headerStyle.headerUl}>
-          <li className={headerStyle.headerLi}>
+        <ul className={headerStyle.headerMainmenu}>
+          <li className={headerStyle.headerSubmenu}>
             <h3>COMPANY</h3>
-            <ol className={headerStyle.headerOl}>
+            <ol className={headerStyle.headerDropdown}>
               <Company />
             </ol>
           </li>
-          <li className={headerStyle.headerLi}>
+          <li className={headerStyle.headerSubmenu}>
             <h3>PRODUCT</h3>
-            <ol className={headerStyle.headerOl}>
+            <ol className={headerStyle.headerDropdown}>
               <Product />
             </ol>
           </li>
-          <li className={headerStyle.headerLi}>
+          <li className={headerStyle.headerSubmenu}>
             <h3>FACTORY</h3>
-            <ol className={headerStyle.headerOl}>
+            <ol className={headerStyle.headerDropdown}>
               <Factory />
             </ol>
           </li>
-          <li className={headerStyle.headerLi}>
-            <h3>CONTACT US</h3>
-            <ol className={headerStyle.headerOl}>
+          <li className={headerStyle.headerSubmenu}>
+            <h3>CONTACT</h3>
+            <ol className={headerStyle.headerDropdown}>
               <Contact />
             </ol>
           </li>

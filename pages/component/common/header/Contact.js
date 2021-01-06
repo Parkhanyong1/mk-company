@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import headerStyle from 'styles/header.module.css';
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
       </p> */}
       <p>
         <Link href="container/contact/recruitment">
-          <a>채용공고</a>
+          <a className={headerStyle.headerA}>채용공고</a>
         </Link>
       </p>
     </div>
