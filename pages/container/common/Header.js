@@ -1,9 +1,9 @@
-import Company from '../pages/container/company/company';
-import Product from '../pages/container/product/product';
-import Factory from '../pages/container/factory/factory';
-import Contact from '../pages/container/contact/contact';
+import Company from 'pages/component/common/header/Company';
+import Product from 'pages/component/common/header/Product';
+import Factory from 'pages/component/common/header/Factory';
+import Contact from 'pages/component/common/header/Contact';
 import Link from 'next/link';
-import headerStyle from '../styles/header.module.css';
+import headerStyle from 'styles/header.module.css';
 
 const Header = () => {
   return (

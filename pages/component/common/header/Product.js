@@ -1,21 +1,20 @@
 import Link from 'next/link';
-import css from '../../../styles/index.module.css';
 
 const Product = () => {
   return (
     <div>
       <p>
-        <Link href="../../component/product/ring">
+        <Link href="container/product/Ring">
           <a>링기어</a>
         </Link>
       </p>
       <p>
-        <Link href="../../component/product/outinput">
+        <Link href="container/product/Outinput">
           <a>아웃풋 & 인풋기어</a>
         </Link>
       </p>
       <p>
-        <Link href="../../component/product/others">
+        <Link href="container/product/Others">
           <a>기타</a>
         </Link>
       </p>

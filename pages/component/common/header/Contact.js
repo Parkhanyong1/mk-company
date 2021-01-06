@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import css from '../../../styles/index.module.css';
 
 const Contact = () => {
   return (
@@ -8,7 +7,7 @@ const Contact = () => {
         <a>공지사항</a>
       </p> */}
       <p>
-        <Link href="../../component/contactus/recruitment">
+        <Link href="container/contact/recruitment">
           <a>채용공고</a>
         </Link>
       </p>

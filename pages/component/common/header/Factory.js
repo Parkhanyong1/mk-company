@@ -1,16 +1,15 @@
 import Link from 'next/link';
-import css from '../../../styles/index.module.css';
 
 const Factory = () => {
   return (
     <div>
       <p>
-        <Link href="../../component/factory/production">
+        <Link href="container/factory/Production">
           <a>생산설비현황</a>
         </Link>
       </p>
       <p>
-        <Link href="../../component/factory/check">
+        <Link href="container/factory/Check">
           <a>검사설비현황</a>
         </Link>
       </p>
