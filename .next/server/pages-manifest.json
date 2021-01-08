@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/container/company/Ceo": "pages/container/company/Ceo.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/container/company/History": "pages/container/company/History.js",
+  "/container/company/Certification": "pages/container/company/Certification.js",
+  "/container/factory/Production": "pages/container/factory/Production.js",
+  "/container/product/Ring": "pages/container/product/Ring.js"
 }

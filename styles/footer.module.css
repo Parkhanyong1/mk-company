@@ -1,13 +1,16 @@
 .footer {
-  background-color: steelblue;
+  background-color: #0abab5;
+  /* background-color: palevioletred; */
   color: white;
   height: 140px;
 }
 .footerH1 {
-  display: inline;
+  float: left;
+  margin-top: 20px;
   margin-left: 200px;
-  margin-right: 380px;
 }
 .footerP {
-  margin-left: 730px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 10px;
 }

@@ -1,21 +1,22 @@
 .header {
-  height: 70px;
+  height: 80px;
   position: relative;
   z-index: 2;
 }
 .headerTitle {
-  display: inline;
+  float: left;
   margin-left: 100px;
   color: black;
   text-decoration: none;
 }
 .headerMainmenu {
-  margin-right: 150px;
   float: right;
-  display: inline-flex;
+  display: flex;
+  margin-right: 150px;
 }
 .headerSubmenu {
   list-style: none;
+  width: 190px;
 }
 .headerA {
   text-decoration: none;
@@ -31,5 +32,5 @@
   visibility: hidden;
   transition: all 0.15s ease-in;
   border: 1px black solid;
-  width: 100px;
+  width: 150px;
 }

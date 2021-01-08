@@ -4,10 +4,21 @@ const Footer = () => {
   return (
     <div>
       <footer className={footerStyle.footer}>
-        <h1 className={footerStyle.footerH1}>(주)엠케이</h1>
-        Address : 454 Chilbaek-ro, Geumho-eup, Yeongcheon-si, Gyeongsangbuk-do
-        <p className={footerStyle.footerP}>Tel : 054-335-1501</p>
-        <p className={footerStyle.footerP}>Fax : 054-338-1501</p>
+        <div className={footerStyle.footerH1}>
+          <h1>(주)엠케이</h1>
+        </div>
+        <div className={footerStyle.footerP}>
+          <p>
+            <strong>Address</strong> : 454 Chilbaek-ro, Geumho-eup,
+            Yeongcheon-si, Gyeongsangbuk-do
+          </p>
+          <p>
+            <strong>Tel</strong> : 054-335-1501
+          </p>
+          <p>
+            <strong>Fax</strong> : 054-338-1501
+          </p>
+        </div>
       </footer>
     </div>
   );

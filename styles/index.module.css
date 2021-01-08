@@ -1,4 +1,4 @@
-.indexNav {
+.indexImage {
   width: auto;
   height: 410px;
   background-image: url(/main.jpg);
@@ -6,21 +6,20 @@
   z-index: 1;
   margin-top: 8px;
 }
-.navSpan {
+.indexBlend {
   mix-blend-mode: normal;
   position: absolute;
   font-size: 3rem;
   font-weight: bold;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
+  margin-left: 1000px;
+  margin-top: 150px;
 }
 .indexMain {
   height: 220px;
   padding-left: 300px;
   padding-top: 10px;
 }
-.mainP {
+.indexP {
   font-size: 1.3rem;
 }
