@@ -8,7 +8,7 @@ const Contact = () => {
         <a>공지사항</a>
       </p> */}
       <p>
-        <Link href="container/contact/recruitment">
+        <Link href="/container/contact/recruitment">
           <a className={headerStyle.headerA}>채용공고</a>
         </Link>
       </p>

@@ -5,12 +5,12 @@ const Factory = () => {
   return (
     <div>
       <p>
-        <Link href="container/factory/Production">
+        <Link href="/container/factory/Production">
           <a className={headerStyle.headerA}>생산설비현황</a>
         </Link>
       </p>
       <p>
-        <Link href="container/factory/Check">
+        <Link href="/container/factory/Check">
           <a className={headerStyle.headerA}>검사설비현황</a>
         </Link>
       </p>

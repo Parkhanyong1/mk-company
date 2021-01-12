@@ -5,17 +5,17 @@ const Product = () => {
   return (
     <div>
       <p>
-        <Link href="container/product/Ring">
+        <Link href="/container/product/Ring">
           <a className={headerStyle.headerA}>링기어</a>
         </Link>
       </p>
       <p>
-        <Link href="container/product/Outinput">
+        <Link href="/container/product/Outinput">
           <a className={headerStyle.headerA}>아웃인풋기어</a>
         </Link>
       </p>
       <p>
-        <Link href="container/product/Others">
+        <Link href="/container/product/Others">
           <a className={headerStyle.headerA}>기타</a>
         </Link>
       </p>
