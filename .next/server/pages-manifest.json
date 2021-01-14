@@ -2,7 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/container/company/Certification": "pages/container/company/Certification.js",
+  "/container/company/Way": "pages/container/company/Way.js",
   "/": "pages/index.js",
   "/container/company/Ceo": "pages/container/company/Ceo.js",
-  "/container/company/History": "pages/container/company/History.js"
+  "/container/company/History": "pages/container/company/History.js",
+  "/container/company/Policy": "pages/container/company/Policy.js",
+  "/container/company/Organization": "pages/container/company/Organization.js"
 }

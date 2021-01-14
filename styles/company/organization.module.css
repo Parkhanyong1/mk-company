@@ -5,7 +5,7 @@
   margin-top: 8px;
 }
 .organizationMain {
-  height: 900px;
+  height: 650px;
   font-size: 1rem;
   padding-left: 200px;
   padding-top: 30px;
@@ -18,6 +18,6 @@
   font-weight: bold;
   color: ghostwhite;
   padding-left: 900px;
-  padding-top: 100px;
+  padding-top: 50px;
   height: 400px;
 }

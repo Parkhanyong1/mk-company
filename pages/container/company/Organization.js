@@ -18,6 +18,7 @@ function Organization() {
             src="/organizationtable.jpg"
             alt="회사 조직도"
             title="회사 조직도"
+            width="800"
           />
         </main>
       </section>
