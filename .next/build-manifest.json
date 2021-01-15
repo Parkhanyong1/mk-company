@@ -29,35 +29,20 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/container/company/Ceo": [
+    "/container/product/Others": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/Ceo.js"
+      "static/chunks/pages/container/product/Others.js"
     ],
-    "/container/company/Certification": [
+    "/container/product/Outinput": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/Certification.js"
+      "static/chunks/pages/container/product/Outinput.js"
     ],
-    "/container/company/History": [
+    "/container/product/Ring": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/History.js"
-    ],
-    "/container/company/Organization": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/Organization.js"
-    ],
-    "/container/company/Policy": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/Policy.js"
-    ],
-    "/container/company/Way": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/container/company/Way.js"
+      "static/chunks/pages/container/product/Ring.js"
     ]
   },
   "ampFirstPages": []
