@@ -11,6 +11,7 @@ function Ceo() {
         </nav>
         <main className={ceoStyle.ceoMain}>
           <h2>대표 인사말</h2>
+          <br></br>
           <p>
             <strong>
               엠케이는 정밀하고 오차 없는 부품을 생산하는 기본에 충실한 기업을

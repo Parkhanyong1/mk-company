@@ -11,6 +11,7 @@ function History() {
         </nav>
         <main className={historyStyle.historyMain}>
           <h2>회사연혁</h2>
+          <br></br>
           <p>
             <strong>2019.01.21 (주)엠케이 설립</strong>
           </p>

@@ -15,10 +15,10 @@ function Check() {
         <main className={checkStyle.checkMain}>
           <h2>검사설비</h2>
           <p>
-            <img src="/checkfacility1.jpg" alt="" title="" />
+            <img src="/checkfacility1.jpg" alt="" width="1100" height="500" />
           </p>
           <p>
-            <img src="/checkfacility2.jpg" alt="" title="" />
+            <img src="/checkfacility2.jpg" alt="" width="1100" height="500" />
           </p>
         </main>
       </section>

@@ -2,8 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/container/company/Certification": "pages/container/company/Certification.js",
+  "/container/company/Way": "pages/container/company/Way.js",
+  "/container/company/Ceo": "pages/container/company/Ceo.js",
+  "/container/company/History": "pages/container/company/History.js",
+  "/container/company/Policy": "pages/container/company/Policy.js",
+  "/container/company/Organization": "pages/container/company/Organization.js",
   "/container/product/Ring": "pages/container/product/Ring.js",
   "/container/product/Outinput": "pages/container/product/Outinput.js",
   "/container/product/Others": "pages/container/product/Others.js",
-  "/": "pages/index.js"
+  "/container/factory/Production": "pages/container/factory/Production.js",
+  "/container/factory/Check": "pages/container/factory/Check.js",
+  "/container/contact/Recruitment": "pages/container/contact/Recruitment.js"
 }

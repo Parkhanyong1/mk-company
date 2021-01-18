@@ -14,6 +14,7 @@ function Policy() {
         </nav>
         <main className={policyStyle.policyMain}>
           <h2>경영방침</h2>
+          <br></br>
           <p>
             <strong>
               엠케이는 안전, 복지, 품질, 성장, 기술의 5개 경영방침을 세우고 이를

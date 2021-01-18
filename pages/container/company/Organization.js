@@ -14,6 +14,7 @@ function Organization() {
         </nav>
         <main className={organizationStyle.organizationMain}>
           <h2>(주)엠케이 조직도</h2>
+          <br></br>
           <img
             src="/organizationtable.jpg"
             alt="회사 조직도"

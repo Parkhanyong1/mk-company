@@ -11,6 +11,7 @@ function Certification() {
         </nav>
         <main className={certificationStyle.certificationMain}>
           <h2>인증현황</h2>
+          <br></br>
           <img
             src="/certification3.jpg"
             alt="특허증"

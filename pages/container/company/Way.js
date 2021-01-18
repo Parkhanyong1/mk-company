@@ -25,11 +25,11 @@ function Way() {
             aria-hidden="false"
             tabindex="0"
           ></iframe>
-          <h2>ADDRESS</h2>
+          <h2 className={wayStyle.wayH2}>ADDRESS</h2>
           <p>
             <strong>경상북도 영천시 금호읍 칠백로 454</strong>
           </p>
-          <h2>TRANSPORTATION</h2>
+          <h2 className={wayStyle.wayH2}>TRANSPORTATION</h2>
           <p>
             <strong>경부고속도로</strong>
           </p>

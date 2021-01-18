@@ -15,16 +15,36 @@ function Production() {
         <main className={productionStyle.productionMain}>
           <h2>생산 설비</h2>
           <p>
-            <img src="/productionfacility1.jpg" alt="" />
+            <img
+              src="/productionfacility1.jpg"
+              width="1100"
+              height="500"
+              alt=""
+            />
           </p>
           <p>
-            <img src="/productionfacility2.jpg" alt="" />
+            <img
+              src="/productionfacility2.jpg"
+              width="1100"
+              height="500"
+              alt=""
+            />
           </p>
           <p>
-            <img src="/productionfacility3.jpg" alt="" />
+            <img
+              src="/productionfacility3.jpg"
+              width="1100"
+              height="500"
+              alt=""
+            />
           </p>
           <p>
-            <img src="/productionfacility4.jpg" alt="" />
+            <img
+              src="/productionfacility4.jpg"
+              width="1100"
+              height="500"
+              alt=""
+            />
           </p>
         </main>
       </section>
