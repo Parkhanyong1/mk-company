@@ -4,14 +4,9 @@ import headerStyle from 'styles/header.module.css';
 const Contact = () => {
   return (
     <div>
-      {/* <p>
-        <a>공지사항</a>
-      </p> */}
-      <p>
-        <Link href="/container/contact/Recruitment">
-          <a className={headerStyle.headerA}>채용공고</a>
-        </Link>
-      </p>
+      <Link href="/container/contact/Recruitment">
+        <a className={headerStyle.headerA1}>채용공고</a>
+      </Link>
     </div>
   );
 };

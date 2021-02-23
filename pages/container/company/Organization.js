@@ -2,27 +2,30 @@ import organizationStyle from 'styles/company/organization.module.css';
 
 function Organization() {
   return (
-    <div>
-      <section>
-        <nav className={organizationStyle.organizationNav}>
-          <span className={organizationStyle.navSpan}>
-            <h1>
-              ORGANIZATION
-              <p>CHART</p>
-            </h1>
-          </span>
-        </nav>
-        <main className={organizationStyle.organizationMain}>
-          <h2>(주)엠케이 조직도</h2>
-          <br></br>
+    <div className={organizationStyle.organizationBody}>
+      <div className={organizationStyle.organizationImg}>
+        <img src="/images/company/organization.jpg" />
+      </div>
+
+      <div className={organizationStyle.organizationBlend}>
+        organization
+        <br />
+        chart
+      </div>
+
+      <main className={organizationStyle.organizationMain}>
+        <div className={organizationStyle.organizationH1}>
+          (주)엠케이 조직도
+        </div>
+
+        <div className={organizationStyle.organizationTable}>
           <img
-            src="/organizationtable.jpg"
+            src="/images/company/organizationtable.jpg"
             alt="회사 조직도"
             title="회사 조직도"
-            width="800"
           />
-        </main>
-      </section>
+        </div>
+      </main>
     </div>
   );
 }

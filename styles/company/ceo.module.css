@@ -1,23 +1,59 @@
-.ceoNav {
-  width: auto;
+.ceoBody {
+  width: 100%;
+  height: 1100px;
+}
+.ceoImg {
+  width: 100%;
   height: 410px;
-  background-image: url(/ceo.jpg);
-  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.ceoMain {
-  height: 430px;
-  font-size: 1rem;
-  padding-left: 200px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.navSpan {
-  mix-blend-mode: normal;
-  position: absolute;
+.ceoBlend {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
   font-weight: bold;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
+}
+.ceoMain {
+  width: 100%;
+  height: 690px;
+  position: relative;
+  bottom: 150px;
+}
+.ceoH1 {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.ceoP1 {
+  width: 860px;
+  height: 281px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
+.ceoP2 {
+  margin-bottom: 15px;
 }

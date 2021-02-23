@@ -1,23 +1,78 @@
-.recruitmentNav {
-  width: auto;
+.recruitmentBody {
+  width: 100%;
+  height: 1100px;
+}
+.recruitmentImg {
+  width: 100%;
   height: 410px;
-  background-image: url(/recruitment.jpg);
-  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.recruitmentMain {
-  height: 350px;
-  font-size: 1rem;
-  padding-left: 200px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.recruitmentSpan {
-  mix-blend-mode: normal;
-  position: absolute;
+.recruitmentBlend {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
+}
+
+.recruitmentMain {
+  width: 100%;
+  height: 690px;
+  position: relative;
+  bottom: 100px;
+}
+.recruitmentH1 {
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.recruitmentH2 {
+  width: 200px;
+  height: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+.recruitmentH3 {
+  width: 100px;
+  height: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+.recruitmentP1 {
+  width: 1000px;
+  height: 100px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+.recruitmentP2 {
+  width: 1000px;
+  height: 100px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+  left: 300px;
 }

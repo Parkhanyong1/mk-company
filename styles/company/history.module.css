@@ -1,23 +1,60 @@
-.historyNav {
-  width: auto;
-  height: 410px;
-  background-image: url(/history.jpg);
-  margin-top: 8px;
+.historyBody {
+  width: 100%;
+  height: 900px;
 }
-.historyMain {
+.historyImg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.historyBlend {
+  width: 300px;
   height: 200px;
-  font-size: 1rem;
-  padding-left: 200px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.navSpan {
-  mix-blend-mode: normal;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 280px;
+  left: 1000px;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
+}
+.historyMain {
+  width: 100%;
+  height: 490px;
+  position: relative;
+  bottom: 200px;
+}
+
+.historyH1 {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 60px;
+  left: 300px;
+}
+.historyP1 {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  left: 300px;
+}
+.historyP2 {
+  margin-bottom: 15px;
 }

@@ -1,22 +1,72 @@
-.checkNav {
-  width: auto;
+.checkBody {
+  width: 100%;
+  height: 2000px;
+}
+.checkImg {
+  width: 100%;
   height: 410px;
-  background-image: url(/checkfacilitymain.jpg);
-  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.checkMain {
-  height: 1150px;
-  font-size: 1rem;
-  padding-left: 200px;
-  padding-top: 40px;
-}
-.navSpan {
-  mix-blend-mode: normal;
-  position: absolute;
+.checkBlend {
+  width: 250px;
+  height: 150px;
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
+}
+.checkMain {
+  width: 100%;
+  height: 1590px;
+  position: relative;
+  bottom: 150px;
+}
+.checkH1 {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.imgBody {
+  width: 100%;
+  height: 1400px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.Img {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  margin-bottom: 100px;
+}
+.explain1 {
+  position: absolute;
+  top: 720px;
+  left: 150px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.explain2 {
+  position: absolute;
+  top: 1320px;
+  left: 150px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
 }

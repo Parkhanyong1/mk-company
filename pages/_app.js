@@ -1,12 +1,5 @@
-// import '../styles/index.module.css';
-
-// export default function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />;
-// }
 import React from 'react';
 import App from 'next/app';
-// import Link from 'next/link';
-
 import Header from 'pages/container/common/Header.js';
 import Footer from 'pages/container/common/Footer.js';
 

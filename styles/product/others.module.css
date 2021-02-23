@@ -1,25 +1,101 @@
-.othersNav {
-  width: auto;
+.othersBody {
+  width: 100%;
+  height: 2000px;
+}
+.othersImg {
+  width: 100%;
   height: 410px;
-  background-image: url(/others.jpg);
-  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.othersMain {
-  height: 1050px;
-  font-size: 1rem;
-  padding-left: 200px;
-  padding-top: 40px;
-}
-.navSpan {
-  mix-blend-mode: normal;
-  position: absolute;
+.othersBlend {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: ghostwhite;
-  padding-left: 900px;
-  padding-top: 100px;
-  height: 400px;
 }
-.otherImg {
+.othersMain {
+  width: 100%;
+  height: 1590px;
+  position: relative;
+  bottom: 100px;
+}
+.othersH1 {
+  width: 150px;
+  height: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+.othersP1 {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 190px;
+}
+.imgBody {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.Img {
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+}
+.explain1 {
+  position: absolute;
+  top: 760px;
+  left: 200px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.explain2 {
+  position: absolute;
+  top: 760px;
+  left: 750px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.explain3 {
+  position: absolute;
+  top: 1360px;
+  left: 200px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.explain4 {
+  position: absolute;
+  top: 1360px;
+  left: 750px;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  font-weight: bold;
 }

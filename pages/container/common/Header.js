@@ -7,34 +7,36 @@ import headerStyle from 'styles/header.module.css';
 
 const Header = () => {
   return (
-    <div>
-      <header className={headerStyle.header}>
+    <div className={headerStyle.headerBody}>
+      <header className={headerStyle.Header}>
         <Link href="/">
-          <a className={headerStyle.headerTitle}>
-            <h1 className={headerStyle.headerTitle}>(주)엠케이</h1>
-          </a>
+          <a className={headerStyle.headerTitle}>(주)엠케이</a>
         </Link>
-        <ul className={headerStyle.headerMainmenu}>
-          <li className={headerStyle.headerSubmenu}>
-            <h3>COMPANY</h3>
+
+        <ul className={headerStyle.headerMenubar}>
+          <li className={headerStyle.headerMainmenu}>
+            <div className={headerStyle.headerSubmenu}>company</div>
             <ol className={headerStyle.headerDropdown}>
               <Company />
             </ol>
           </li>
-          <li className={headerStyle.headerSubmenu}>
-            <h3>PRODUCT</h3>
+
+          <li className={headerStyle.headerMainmenu}>
+            <div className={headerStyle.headerSubmenu}>product</div>
             <ol className={headerStyle.headerDropdown}>
               <Product />
             </ol>
           </li>
-          <li className={headerStyle.headerSubmenu}>
-            <h3>FACTORY</h3>
+
+          <li className={headerStyle.headerMainmenu}>
+            <div className={headerStyle.headerSubmenu}>factory</div>
             <ol className={headerStyle.headerDropdown}>
               <Factory />
             </ol>
           </li>
-          <li className={headerStyle.headerSubmenu}>
-            <h3>CONTACT</h3>
+
+          <li className={headerStyle.headerMainmenu}>
+            <div className={headerStyle.headerSubmenu}>contact</div>
             <ol className={headerStyle.headerDropdown}>
               <Contact />
             </ol>
